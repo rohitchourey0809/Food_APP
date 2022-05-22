@@ -37,14 +37,11 @@ export const Home = () => {
     <>
       <div>
         <h2>Home </h2>
-
         {/* -------------SEARCHBYQ------------- */}
-        <input
-          // type="text"
-          value={text}
-          onChange={(e) => settext(e.target.value)}
-        />
-        <button onClick={(e) => setQ(text)}>Search By Q</button>
+        <div>
+          <input value={text} onChange={(e) => settext(e.target.value)} />
+          <button onClick={(e) => setQ(text)}>Search By Q</button>
+        </div>
         {/* -------------SEARCHBYQ------------- */}
 
         {/* ---------------Sort By Price------------- */}

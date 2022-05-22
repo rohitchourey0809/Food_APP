@@ -6,11 +6,7 @@ export const RestaurentDetails = ({ img, name, price, rate, dsc }) => {
       <div
         className="foodcontainer"
         style={{
-          // display: "flex",
-          // display: "inlineblock",
-          // width: "50%",
-          // flexDirection: "row",
-          // flexWrap: "wrap",
+  
           gap: "2rem",
           border: "1px solid black",
           padding: "1rem",
