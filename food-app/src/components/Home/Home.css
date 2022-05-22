@@ -1,0 +1,9 @@
+.container{
+    border: 5px solid rgba(25,255,25);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    margin:auto;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
